@@ -1,16 +1,15 @@
 Simple Neural Net
-This is a C++ implement of simple neural network. It's based on [Neural Net in C++ Tutorial](https://vimeo.com/19569529) by David Miller.
+This is a C++ implement of simple neural network. It's based on [Neural Net in C++ Tutorial](https://vimeo.com/19569529) by [David Miller](http://www.millermattson.com/dave/?p=54).
 
-# Step
+# Steps
 1 Gernerate training data to slove XOR problem
-```bash
-g++ ./makeTrainingSamples.cpp -o makeTrainingSamples
+```
+g++ makeTrainingData-XOR.cpp -o makeTrainingData-XOR
 ./makeTrainingSamples > out.txt
 ```
 
 2 Test neural netwrok
 ```
-g++ ./neural-net.cpp -o neural-net
-./neural-net
+g++ ./NeuralNet.cpp -o NeuralNet
+./NeuralNet
 ```
-
